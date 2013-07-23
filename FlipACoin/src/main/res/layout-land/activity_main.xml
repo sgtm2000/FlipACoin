@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/coinflipButton"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:text="Head or Tail?"
+            android:onClick="flipCoin"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/clearButton"/>
+
+    <ImageView
+            android:id="@+id/headPic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1.00"
+            android:src="@drawable/head"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+    <ImageView
+            android:id="@+id/tailPic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1.00"
+            android:src="@drawable/tail_final"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:id="@+id/clearButton"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:text="Clear"
+            android:onClick="clear"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+
+</RelativeLayout>

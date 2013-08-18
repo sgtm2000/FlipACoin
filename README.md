@@ -1,3 +1,11 @@
+Version 0.2
+- Save the state of the coin when the screen orientation is changed
+
+Enhancements that I still need to work on
+- Add a fancy gif that shows a spinning coin when the "Head or Tail" button is pushed
+- Add a nicer icon
+
+*****************************************************************************
 Version 0.1
 - Simple Android app for flipping a coin
 - Added basic functionality, head and tail images, and a clear button
